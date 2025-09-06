@@ -6,12 +6,12 @@ inherit linux-mod linux-info
 
 DESCRIPTION="Linux Kernel Runtime Guard"
 HOMEPAGE="https://lkrg.org"
-SRC_URI="https://github.com/lkrg-org/lkrg/tarball/02bf2701ae0fd0c50741df00dc7ab72e3d9e8abb -> lkrg-0.9.9-02bf270.tar.gz"
+SRC_URI="https://github.com/lkrg-org/lkrg/tarball/5dae254824ce79ffdf5cf807f25c1668a2e40285 -> lkrg-1.0.0-5dae254.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="*"
-S="${WORKDIR}/lkrg-org-lkrg-02bf270"
+S="${WORKDIR}/lkrg-org-lkrg-5dae254"
 
 MODULE_NAMES="lkrg(misc:${S}:${S})"
 
